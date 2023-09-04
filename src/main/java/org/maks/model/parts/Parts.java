@@ -38,7 +38,7 @@ abstract public class Parts {
     @Override
     public String toString() {
         return "\nname = " + name +
-                "\ncash=" + cash +
-                "\nwear=" + wear;
+                "; cash=" + cash +
+                "; nwear=" + wear;
     }
 }

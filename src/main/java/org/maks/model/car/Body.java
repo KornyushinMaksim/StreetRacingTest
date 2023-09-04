@@ -26,6 +26,6 @@ public class Body extends Parts {
     @Override
     public String toString() {
         return super.toString() +
-                "\nmassa=" + massa;
+                "; massa=" + massa;
     }
 }

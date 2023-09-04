@@ -1,29 +1,18 @@
 package org.maks.model.car;
 
-public class Suspension {
-    private String name;
+import org.maks.model.parts.Parts;
+
+public class Suspension extends Parts {
     private int hard;
-    private int wear;
 
-
-    public Suspension() {
-        this.name = "Tein";
-        this.hard = 6;
-        this.wear = 1;
+    public Suspension(){
+        super("jic", 2200, 1);
+        this.hard = 2;
     }
 
-    public Suspension(String name, int hard, int wear, int index) {
-        this.name = name;
+    public Suspension(String name, int cash, int wear, int hard) {
+        super(name, cash, wear);
         this.hard = hard;
-        this.wear = wear;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public int getHard() {
@@ -32,13 +21,5 @@ public class Suspension {
 
     public void setHard(int hard) {
         this.hard = hard;
-    }
-
-    public int getWear() {
-        return wear;
-    }
-
-    public void setWear(int wear) {
-        this.wear = wear;
     }
 }

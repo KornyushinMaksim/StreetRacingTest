@@ -1,35 +1,25 @@
 package org.maks.model.car;
 
-public class Transmissoin {
-    private String brend;
-    private int wear;       //износ
+import org.maks.model.parts.Parts;
+
+public class Transmissoin extends Parts {
     private int index;
 
     public Transmissoin() {
-        this.brend = "Apexi";
-        this.wear = 1;
-        this.index = 100;
+        super("subaru", 1300, 1);
+        this.index = 1;
     }
 
-    public Transmissoin(String brend, int wear, int index) {
-        this.brend = brend;
-        this.wear = wear;
+    public Transmissoin(String name, int cash, int wear, int index) {
+        super(name, cash, wear);
         this.index = index;
     }
 
-    public String getBrend() {
-        return brend;
+    public int getIndex() {
+        return index;
     }
 
-    public void setBrend(String brend) {
-        this.brend = brend;
-    }
-
-    public int getWear() {
-        return wear;
-    }
-
-    public void setWear(int wear) {
-        this.wear = wear;
+    public void setIndex(int index) {
+        this.index = index;
     }
 }

@@ -1,46 +1,26 @@
 package org.maks.model.car;
 
-public class Wheel {
-    private String name;
-    private int level;
-    private int wear;
+import org.maks.model.parts.Parts;
+
+public class Wheel extends Parts {
+
     private int index;
 
     public Wheel() {
-        this.name = "Continentale";
-        this.level = 2;
-        this.wear = 1;
-        this.index = 100;
+        super("yokohama", 800, 1);
+        this.index = 1;
     }
 
-    public Wheel(String name, int level, int wear, int index) {
-        this.name = name;
-        this.level = level;
-        this.wear = wear;
+    public Wheel(String name, int cash, int wear, int index) {
+        super(name, cash, wear);
         this.index = index;
     }
 
-    public String getName() {
-        return name;
+    public int getIndex() {
+        return index;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getLevel() {
-        return level;
-    }
-
-    public void setLevel(int level) {
-        this.level = level;
-    }
-
-    public int getWear() {
-        return wear;
-    }
-
-    public void setWear(int wear) {
-        this.wear = wear;
+    public void setIndex(int index) {
+        this.index = index;
     }
 }

@@ -1,13 +1,17 @@
 package org.maks.model.car;
 
-public class Body {
+import org.maks.model.parts.Parts;
+
+public class Body extends Parts {
     private int massa;
 
-    public Body() {
-        this.massa = 1300;
+    public Body (){
+        super("sedan", 16000, 1);
+        this.massa = 1600;
     }
 
-    public Body(int massa) {
+    public Body(String name, int cash, int wear, int massa) {
+        super(name, cash, wear);
         this.massa = massa;
     }
 
@@ -17,5 +21,11 @@ public class Body {
 
     public void setMassa(int massa) {
         this.massa = massa;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() +
+                "\nmassa=" + massa;
     }
 }

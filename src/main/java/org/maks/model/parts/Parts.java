@@ -3,12 +3,12 @@ package org.maks.model.parts;
 abstract public class Parts {
     protected String name;
     protected int cash;
-    protected int wear;
+    protected float wear;
 
-    public Parts(String name, int cash, int wear) {
+    public Parts(String name, int cash) {
         this.name = name;
         this.cash = cash;
-        this.wear = wear;
+        this.wear = 1;
     }
 
     public String getName() {
@@ -27,18 +27,15 @@ abstract public class Parts {
         this.cash = cash;
     }
 
-    public int getStateParts() {
+    public float getWear() {
         return wear;
     }
 
-    public void setStateParts(int stateParts) {
-        this.wear = stateParts;
+    public void setWear(float wear) {
+        this.wear = wear;
     }
 
-    @Override
-    public String toString() {
-        return "\nname = " + name +
-                "; cash=" + cash +
-                "; nwear=" + wear;
+    public float resParts() {
+        return 0f;
     }
 }

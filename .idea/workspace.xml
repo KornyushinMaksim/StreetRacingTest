@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df28b0d-6c4b-444f-add0-2380df8a35d7" name="Changes" comment="classWork_04.09">
+    <list default="true" id="9df28b0d-6c4b-444f-add0-2380df8a35d7" name="Changes" comment="classWork_04.09_1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/maks/model/parts/FabricaCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/maks/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maks/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maks/model/car/Body.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maks/model/car/Body.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/maks/model/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maks/model/car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maks/model/car/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maks/model/car/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maks/model/car/Suspension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maks/model/car/Suspension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maks/model/car/Transmissoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maks/model/car/Transmissoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maks/model/car/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maks/model/car/Wheel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maks/model/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maks/model/game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maks/model/parts/Parts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maks/model/parts/Parts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693851335535</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="classWork_04.09_1">
+      <created>1693851758571</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693851758571</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,7 +140,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="classWork_30.08" />
     <MESSAGE value="classWork_04.09" />
-    <option name="LAST_COMMIT_MESSAGE" value="classWork_04.09" />
+    <MESSAGE value="classWork_04.09_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="classWork_04.09_1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

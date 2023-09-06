@@ -6,13 +6,13 @@ public class Transmissoin extends Parts {
     private int index;
 
     public Transmissoin() {
-        super("subaru", 1300, 1);
-        this.index = 1;
+        super("subaru", 1300);
+        this.index = 10;
     }
 
-    public Transmissoin(String name, int cash, int wear, int index) {
-        super(name, cash, wear);
-        this.index = index;
+    public Transmissoin(String name, int cash) {
+        super(name, cash);
+        this.index = 10;
     }
 
     public int getIndex() {
@@ -21,5 +21,19 @@ public class Transmissoin extends Parts {
 
     public void setIndex(int index) {
         this.index = index;
+    }
+
+    @Override
+    public float resParts() {
+        float res = this.index / wear;
+        return res;
+    }
+
+    @Override
+    public String toString() {
+        return "\n\n transmition name = " + name +
+                "\n cash = " + cash +
+                "\n wear = " + wear +
+                "\n index = " + index;
     }
 }

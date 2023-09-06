@@ -1,6 +1,5 @@
 package org.maks.model.car;
 import org.maks.model.parts.Parts;
-
 import java.util.Arrays;
 
 public class Car {
@@ -27,8 +26,21 @@ public class Car {
         this.name = name;
     }
 
+    public float allIndexCar(){
+        float res = 0;
+        res += this.car[1].resParts();
+        res += this.car[2].resParts();
+        res += this.car[3].resParts();
+        res += this.car[4].resParts();
+        return res -= car[0].resParts();
+    }
+
     @Override
     public String toString() {
-        return "\nname car = " + name + Arrays.toString(car);
+        return  "\n name car =" + name + Arrays.toString(car) ;
+    }
+
+    public String toStringWinner(){
+        return name;
     }
 }
